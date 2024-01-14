@@ -13,9 +13,9 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
+		"name": "Erusean Air and Space Administration",
+		"replaces": "University",
+		"uniqueTo": "Kingdom of Erusea",
 		"cost": 80,
 		"hurryCostModifier": 160,
 		"happiness": 2,
