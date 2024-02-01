@@ -1,16 +1,16 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
+		"name": "Stonehenge",
+		"replaces": "Heroic Epic",
+		"uniqueTo": "Kingdom of Erusea",
 		"cost": 480,
 		"happiness": 12,
 		"culture": 12,
 		"science": 12,
 		"maintenance": 96,
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"requiredBuildingInAllCities": "Barracks",
+		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Erusean Air and Space Administration",
