@@ -29,8 +29,9 @@
 
 		"outerColor": [214,80,39],
 		"innerColor": [255,254,246],
-		"uniquename": "Erusean Air Superiority"
-		"unique": ["[+30]% Production when constructing [Air] units [in all cities]","All newly-trained [Air] units [in all cities] receive the [Bombardment I] promotion"]
+		"uniquename": "Erusean Air Superiority",
+		"uniqueText": "+30% Production for Air units. All new Air units receive the Bombardment I promotion.",
+		"unique": ["[+30]% Production when constructing [Air] units [in all cities]","[Air] units gain the [Bombardment I] promotion"],
 		"cities": ["Farbanti","Anchorhead","Selatapura","Cape Rainy","Dennis"]
 	}
 ]
