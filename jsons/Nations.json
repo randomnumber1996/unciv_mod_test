@@ -1,18 +1,18 @@
 [
 	{
-		"name": "Kingdom of Erusea",
-		"leaderName": "Rosa Cossette D'Elise",
-		"adjective": ["Erusean"],
-		"startBias": ["Coast"],
+		"name": "Succubus Empire",
+		"leaderName": "Empress Eiko",
+		"adjective": ["Succubi"],
+		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Erusea and its people suffered greatly due to the devastation caused by the Ulysses asteroid impacts. Always cast as the villian, it has repeatedly been forced into submission by international military organizations. However, hope for a new Erusea still shines within its people.",
-		"startIntroPart2": "Princess Cossette, will you be able to learn from the defeats of the past and lead you people to prosperity?",
+		"startIntroPart1": "The Succubus Empire has risen.",
+		"startIntroPart2": "Empress Eiko, will you live in harmony with humanity or enslave them for your own pleasure?",
 		
 		"declaringWar": "We will no longer suffer your presence. Prepare for war!",
 		"attacked": "So it has come to this. We shall burn you to the ground!",
-		"defeated": "And so Erusea is defeated again... but do not think your victory shall last.",
-		"introduction": "Greetings. I am Princess Rosa Cossette D'Elise of the Kingdom of Erusea.",
+		"defeated": "And so the Succubi are defeated... but do not think your victory shall last.",
+		"introduction": "Greetings. I am Eiko, Empress of the Succubi.",
 		
 		"neutralHello": "You wished to talk?",
 		"neutralLetsHearIt": ["Yes?.","Tell me more.","Go on."],
@@ -24,14 +24,14 @@
 		"hateNo": ["This is unacceptable!","Never!","Absolutely not!"],
 		"hateYes": ["That is fine.","That will suffice.","Very well..."],
 		
-		"afterPeace": "Erusea shall respect this peace.",
+		"afterPeace": "We shall respect this peace.",
 		"tradeRequest": "Would you be interested in this proposition?",
 
 		"outerColor": [214,80,39],
 		"innerColor": [255,254,246],
-		"uniquename": "Erusean Air Superiority",
-		"uniqueText": "+30% Production for Air units. All new Air units receive the Bombardment I promotion.",
-		"unique": ["[+30]% Production when constructing [Air] units [in all cities]","[Air] units gain the [Bombardment I] promotion"],
-		"cities": ["Farbanti","Anchorhead","Selatapura","Cape Rainy","Dennis"]
+		"uniquename": "Succubus Superiority",
+		"uniqueText": "+10 to all yields in all cities",
+		"uniques": ["[+10 Food, +10 Production, +10 Gold, +10 Culture, +10 Science, +10 Faith, +10 Happiness] [in all cities]","[-90]% City-State Influence degradation"],
+		"cities": ["Land of Lust","Land of Domination","Land of Corruption","Land of Seduction","Land of Pleasure"]
 	}
 ]
