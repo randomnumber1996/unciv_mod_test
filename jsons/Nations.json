@@ -3,11 +3,11 @@
 		"name": "Succubus Empire",
 		"leaderName": "Empress Eiko",
 		"adjective": ["Succubi"],
-		"startBias": ["Avoid [Tundra]"],
+		"startBias": ["Avoid [Tundra]","Avoid [Desert]"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "The Succubus Empire has risen.",
-		"startIntroPart2": "Empress Eiko, will you live in harmony with humanity or enslave them for your own pleasure?",
+		"startIntroPart1": "After years of living in the shadows, the magical beings known as succubi have revealed their glorious lust to their human prey.",
+		"startIntroPart2": "Empress Eiko, will you live in harmony with humanity or enslave them for your own sadistic pleasure?",
 		
 		"declaringWar": "We will no longer suffer your presence. Prepare for war!",
 		"attacked": "So it has come to this. We shall burn you to the ground!",
