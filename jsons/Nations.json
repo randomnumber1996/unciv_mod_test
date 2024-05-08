@@ -27,8 +27,8 @@
 		"afterPeace": "We shall respect this peace.",
 		"tradeRequest": "Would you be interested in this proposition?",
 
-		"outerColor": [214,80,39],
-		"innerColor": [255,254,246],
+		"outerColor": [200,8,131],
+		"innerColor": [0,0,0],
 		"uniquename": "Succubus Superiority",
 		"uniqueText": "+10 to all yields in all cities",
 		"uniques": ["[+10 Food, +10 Production, +10 Gold, +10 Culture, +10 Science, +10 Faith, +10 Happiness] [in all cities]","[-90]% City-State Influence degradation"],
