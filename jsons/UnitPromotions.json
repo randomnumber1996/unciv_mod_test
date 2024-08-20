@@ -5,7 +5,7 @@
 		"name": "Succubus Shock I",
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Succubus"],
-        "column": 4,
+        "column": 34,
         "row": 1
 	},
 	{
@@ -13,7 +13,7 @@
 		"prerequisites": ["Succubus Shock I"],
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Succubus"],
-        "column": 4,
+        "column": 34,
         "row": 2
 	},
 	{
@@ -21,7 +21,7 @@
 		"prerequisites": ["Succubus Shock II"],
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Succubus"],
-        "column": 4,
+        "column": 34,
         "row": 3
 	},
 
@@ -29,7 +29,7 @@
 		"name": "Succubus Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Succubus"],
-        "column": 5,
+        "column": 35,
         "row": 1
 	},
 	{
@@ -37,7 +37,7 @@
 		"prerequisites": ["Succubus Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Succubus"],
-        "column": 5,
+        "column": 35,
         "row": 2
 	},
 	{
@@ -45,7 +45,7 @@
 		"prerequisites": ["Succubus Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Succubus"],
-        "column": 5,
+        "column": 35,
         "row": 3
 	},
 	{
@@ -53,7 +53,7 @@
 		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Succubus"],
-        "column": 6,
+        "column": 36,
         "row": 2
 	},
 	{
@@ -61,7 +61,7 @@
 		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Succubus"],
-        "column": 6,
+        "column": 36,
         "row": 3
 	},
 	{
@@ -69,7 +69,7 @@
 		"prerequisites": ["Succubus Shock II","Succubus Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Succubus"],
-        "column": 7,
+        "column": 37,
         "row": 2
 	},
 	{
@@ -77,7 +77,7 @@
 		"prerequisites": ["Succubus Formation I"],
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
 		"unitTypes": ["Succubus"],
-        "column": 7,
+        "column": 37,
         "row": 3
 	},
 
@@ -86,7 +86,7 @@
 		"prerequisites": ["Succubus Shock III","Succubus Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Succubus"],
-        "column": 6,
+        "column": 36,
         "row": 4
 	},
 //	{
@@ -94,7 +94,7 @@
 //		"prerequisites": ["Shock III","Drill III"],
 //		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
 //		"unitTypes": ["Sword","Gunpowder"],
- //       "column": 6,
+ //       "column": 36,
   //      "row": 5
 //	},
 	{
@@ -102,7 +102,7 @@
 		"prerequisites": ["Succubus Shock I", "Succubus Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Succubus"],
-        "column": 6,
+        "column": 36,
         "row": 1
 	},
 	{
@@ -110,7 +110,7 @@
 		"prerequisites": ["Succubus Shock I", "Succubus Drill I"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Succubus"],
-        "column": 10, // after scout base
+        "column": 40, // after scout base
         "row": 1
 	},
 	{
@@ -118,7 +118,7 @@
 		"prerequisites": ["Succubus Medic"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Succubus"],
-        "column": 10,
+        "column": 40,
         "row": 2
 	},
 
@@ -127,7 +127,7 @@
 //		"name": "Scouting I",
 //		"uniques": ["[+1] Sight"],
 //		"unitTypes": ["Scout"],
-//        "column": 8,
+//        "column": 38,
 //        "row": 1
 //	},
 //	{
@@ -135,7 +135,7 @@
 //		"prerequisites": ["Scouting I"],
 //		"uniques": ["[+1] Sight"],
 //		"unitTypes": ["Scout"],
-//        "column": 8,
+//        "column": 38,
 //        "row": 2
 //	},
 //	{
@@ -143,14 +143,14 @@
 //		"prerequisites": ["Scouting II"],
 //		"uniques": ["[+1] Movement"],
 //		"unitTypes": ["Scout"],
-//        "column": 8,
+//        "column": 38,
 //        "row": 3
 //	},
 //	{
 //		"name": "Survivalism I",
 //		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 //		"unitTypes": ["Scout"],
-//        "column": 9,
+//        "column": 39,
 //        "row": 1
 //	},
 //	{
@@ -158,7 +158,7 @@
 //		"prerequisites": ["Survivalism I"],
 //		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
 //		"unitTypes": ["Scout"],
-//        "column": 9,
+//        "column": 39,
 //        "row": 2
 //	},
 //	{
@@ -166,7 +166,7 @@
 //		"prerequisites": ["Survivalism II"],
 //		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
 //		"unitTypes": ["Scout"],
-//        "column": 9,
+//        "column": 39,
 //        "row": 3
 //	},
 //
@@ -176,7 +176,7 @@
 		"name": "Succubus Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Succubus"],
-        "column": 24,
+        "column": 54,
         "row": 1
 	},
 	{
@@ -184,7 +184,7 @@
 		"prerequisites": ["Succubus Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
 		"unitTypes": ["Succubus"],
-        "column": 24,
+        "column": 54,
         "row": 2
 	},
 
@@ -193,7 +193,7 @@
 		"prerequisites": ["Succubus Shock III","Succubus Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Succubus"],
-        "column": 10,
+        "column": 40,
         "row": 3
 	},
 	{
@@ -201,7 +201,7 @@
 		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Succubus"],
-        "column": 24,
+        "column": 54,
         "row": 3
 	},
 	{
@@ -209,7 +209,7 @@
 		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
 		"uniques": ["[+1] Sight"],
 		"unitTypes": ["Succubus"],
-        "column": 24,
+        "column": 54,
         "row": 4
 	}
 //	{
