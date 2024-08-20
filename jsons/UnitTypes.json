@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Succubus",
+        "movementType": "Land"
+    },
+  
+   // {
+    //    "name": "Submarine",
+    //    "movementType": "Water",
+    //    "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+   // },
+   
+   
+    //    "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+    
+    //    "uniques": ["Can pass through impassable tiles"]
+]
