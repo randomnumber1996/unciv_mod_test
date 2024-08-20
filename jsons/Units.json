@@ -7,41 +7,65 @@
 
 [
 	{
-		"name": "Scout",
-		"unitType": "Scout",
+		"name": "Succubus Scout",
+		"unitType": "Succubus",
+		"replaces": "Scout",
+		"uniqueTo": "Succubus Empire",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Succubus Mistress",
+		"uniques": ["May upgrade to [Succubus Mistress] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Warrior",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
-		"attackSound": "nonmetalhit",
-       		"civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
+		"civilopediaText": [
+			{"text": "Ancient Era succubus unique unit."}
 		]
 	},
 	{
-		"name": "Maori Warrior",
-		"unitType": "Sword",
-		"uniqueTo": "Polynesia",
-		"replaces": "Warrior",
+		"name": "Succubus Mistress",
+		"unitType": "Succubus",
+		"uniqueTo": "Succubus Empire",
 		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"promotions": ["Haka War Dance"],
-		"upgradesTo": "Swordsman",
+		"strength": 10,
+		"cost": 25,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Scientific Theory",
+		"upgradesTo": "Succubus Mistress",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	}
+		"civilopediaText": [
+			{"text": "Classical Era succubus unique unit."}
+		]
+	},
+	
+	//{
+	//	"name": "Warrior",
+	//	"unitType": "Sword",
+	//	"movement": 2,
+	//	"strength": 8,
+	//	"cost": 40,
+	//	"obsoleteTech": "Metal Casting",
+	//	"upgradesTo": "Swordsman",
+	//	"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+	//	"attackSound": "nonmetalhit",
+       	//	"civilopediaText": [
+	//		{"text": "This is your basic, club-swinging fighter."}
+	//	]
+	//},
+	//{
+	//	"name": "Maori Warrior",
+	//	"unitType": "Sword",
+	//	"uniqueTo": "Polynesia",
+	//	"replaces": "Warrior",
+	//	"movement": 2,
+	//	"strength": 8,
+	//	"cost": 40,
+	//	"obsoleteTech": "Metal Casting",
+	//	"promotions": ["Haka War Dance"],
+	//	"upgradesTo": "Swordsman",
+	//	"attackSound": "nonmetalhit"
+	//}
 ]
