@@ -11,10 +11,10 @@
 		"unitType": "Succubus",
 		"replaces": "Scout",
 		"uniqueTo": "Succubus Empire",
-		"movement": 2,
-		"strength": 5,
+		"movement": 3,
+		"strength": 6,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
+		"obsoleteTech": "Drama and Poetry",
 		"upgradesTo": "Succubus Mistress",
 		"uniques": ["May upgrade to [Succubus Mistress] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
@@ -27,12 +27,12 @@
 		"name": "Succubus Mistress",
 		"unitType": "Succubus",
 		"uniqueTo": "Succubus Empire",
-		"movement": 2,
-		"strength": 10,
-		"cost": 25,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Scientific Theory",
-		"upgradesTo": "Succubus Mistress",
+		"movement": 3,
+		"strength": 12,
+		"cost": 60,
+		"requiredTech": "Drama and Poetry",
+		"obsoleteTech": "Acoustics",
+		"upgradesTo": "Succubus Dominatrix",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
@@ -40,6 +40,55 @@
 			{"text": "Classical Era succubus unique unit."}
 		]
 	},
+	{
+		"name": "Succubus Dominatrix",
+		"unitType": "Succubus",
+		"uniqueTo": "Succubus Empire",
+		"movement": 3,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Acoustics",
+		"obsoleteTech": "Radio",
+		"upgradesTo": "Succubus Queen",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+		"civilopediaText": [
+			{"text": "Renaissance Era succubus unique unit."}
+		]
+	},
+	{
+		"name": "Succubus Queen",
+		"unitType": "Succubus",
+		"uniqueTo": "Succubus Empire",
+		"movement": 3,
+		"strength": 40,
+		"cost": 300,
+		"requiredTech": "Radio",
+		"obsoleteTech": "Telecommunications",
+		"upgradesTo": "Succubus Goddess",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+		"civilopediaText": [
+			{"text": "Modern Era succubus unique unit."}
+		]
+	},
+	{
+		"name": "Succubus Goddess",
+		"unitType": "Succubus",
+		"uniqueTo": "Succubus Empire",
+		"movement": 3,
+		"strength": 80,
+		"cost": 400,
+		"requiredTech": "Telecommunications",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+		"civilopediaText": [
+			{"text": "Information Era succubus unique unit."}
+		]
+	}
 	
 	//{
 	//	"name": "Warrior",
