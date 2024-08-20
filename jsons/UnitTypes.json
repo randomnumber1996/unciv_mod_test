@@ -2,5 +2,9 @@
     {
         "name": "Succubus",
         "movementType": "Land"
-    }
+    },
+    {
+        "name": "Succubus Transformed",
+        "movementType": "Land"
+    },
 ]
