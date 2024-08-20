@@ -211,7 +211,7 @@
 		"unitTypes": ["Succubus"],
         "column": 24,
         "row": 4
-	},
+	}
 //	{
 //		"name": "Logistics",
 //		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
@@ -242,81 +242,40 @@
 
 
 	// Uniques that should be kept on upgrades
-	{
-		"name": "Morale", // Heroic Epic
-		"uniques": ["[+15]% Strength"]
-	},
-	{
-		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
-		"uniques": ["[Great General] is earned [50]% faster"]
-	},
-	{
-		"name": "Great Generals II", // only for Samurai and subsequent upgrades
-		"uniques": ["[Great General] is earned [100]% faster"]
-	},
-	{
-		"name": "Quick Study", // only for Keshik and subsequent upgrades
-		"uniques": ["[+50]% XP gained from combat"]
-	},
-	{
-		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles"]
-	},
-	{
-		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
-		"uniques": ["All healing effects doubled"]
-	},
-	{
-		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"uniques": ["Withdraws before melee combat <with [80]% chance>"]
-	},
-	{
-		"name": "Ignore terrain cost",
-		"uniques": ["Ignores terrain cost"]
-	},
-	{
-		"name": "Pictish Courage", // only for Pictish Warrior and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
-	},
-	{
-		"name": "Home Sweet Home", // only for Mehal Sefari and subsequent upgrades
-		"uniques": ["[+30]% Strength decreasing with distance from the capital"]
-	},
-    {
-        "name": "Devout",
-        "uniques": ["Can Spread Religion <[1] additional time(s)>"]
-    },
-	{
-		"name": "[Mohawk Warrior] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"]
-	},
-	{
-		"name": "[Jaguar] ability",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"]
-	},
-	{
-		"name": "[Persian Immortal] ability",
-		"uniques": ["[+10] HP when healing"]
-	},
-	{
-		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked"]
-	},
-	{
-		"name": "[Janissary] ability",
-		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
-	},
-	{
-		"name": "[Sipahi] ability",
-		"uniques": ["No movement cost to pillage"]
-	},
-	{
-		"name": "[Cossack] ability",
-		"uniques": ["[+50]% Strength <vs [Wounded] units>"]
-	},
-	{
-		"name": "[Hussar] ability",
-		"uniques": ["[+50]% to Flank Attack bonuses"]
-	},
+//	{
+//		"name": "Morale", // Heroic Epic
+//		"uniques": ["[+15]% Strength"]
+//	},
+//	{
+//		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
+//		"uniques": ["[Great General] is earned [50]% faster"]
+//	},
+//	{
+//		"name": "Great Generals II", // only for Samurai and subsequent upgrades
+//		"uniques": ["[Great General] is earned [100]% faster"]
+//	},
+//	{
+//		"name": "Quick Study", // only for Keshik and subsequent upgrades
+//		"uniques": ["[+50]% XP gained from combat"]
+//	},
+//	{
+//		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
+//		"uniques": ["All healing effects doubled"]
+//	},
+//		"name": "[Janissary] ability",
+//		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
+//	},
+//	{
+//		"name": "[Sipahi] ability",
+//		"uniques": ["No movement cost to pillage"]
+//	},
+//	{
+//		"name": "[Cossack] ability",
+//		"uniques": ["[+50]% Strength <vs [Wounded] units>"]
+//	},
+//	{
+//		"name": "[Hussar] ability",
+//		"uniques": ["[+50]% to Flank Attack bonuses"]
+//	},
 
 ]
