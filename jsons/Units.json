@@ -27,7 +27,7 @@
 	{
 		"name": "Succubus Transformed",
 		"unitType": "Succubus Transformed",
-//		"replaces": "Scout",
+		"replaces": "Giant Death Robot",
 		"uniqueTo": "Succubus Empire",
 		"movement": 5,
 		"strength": 12,
