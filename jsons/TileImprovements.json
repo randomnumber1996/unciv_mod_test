@@ -1,17 +1,17 @@
-[
+//[
 
 	
 	//Civilization unique improvements
-	{
-		"name": "Succubus Dairy Farm",
-		"uniqueTo": "Succubus Empire",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"food": 2,
-		"production": 1,
-		"culture": 1,
-		"turnsToBuild": 4,
-		"uniques": ["[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>","[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>","Pillaging this improvement yields approximately [+10 Gold]"],
-		"techRequired": "Animal Husbandry",
-		"shortcutKey": "F"
-	},
-]
+//	{
+	//	"name": "Succubus Dairy Farm",
+//		"uniqueTo": "Succubus Empire",
+//		"terrainsCanBeBuiltOn": ["Land"],
+//		"food": 2,
+//		"production": 1,
+	//	"culture": 1,
+	//	"turnsToBuild": 4,
+//		"uniques": ["[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>","[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>","Pillaging this improvement yields approximately [+10 Gold]"],
+//		"techRequired": "Animal Husbandry",
+//		"shortcutKey": "F"
+//	},
+//]
