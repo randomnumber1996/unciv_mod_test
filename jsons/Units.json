@@ -13,12 +13,13 @@
 		"uniqueTo": "Succubus Empire",
 		"movement": 3,
 		"strength": 6,
+		"rangedStrength": 8,
 		"cost": 25,
 //		"obsoleteTech": "Drama and Poetry",
 //		"upgradesTo": "Succubus Mistress",
 		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus Transformed]"],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
+//		"promotions": ["Ignore terrain cost"],
+		"attackSound": "arrow."
 		"civilopediaText": [
 			{"text": "Ancient Era succubus unique unit."}
 		]
@@ -26,7 +27,7 @@
 	
 	{
 		"name": "Succubus Transformed",
-		"unitType": "Succubus Transformed",
+		"unitType": "Succubus",
 		"replaces": "Giant Death Robot",
 		"uniqueTo": "Succubus Empire",
 		"movement": 5,
@@ -34,8 +35,8 @@
 		"cost": 25,
 //		"obsoleteTech": "Drama and Poetry",
 //		"upgradesTo": "Succubus Mistress",
-		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus]","This Unit takes [30] damage <upon ending a turn in a [Hill] tile>","Unbuildable","Cannot be purchased","Heals [50] damage if it kills a unit","May travel on Water tiles without embarking"],
-		"promotions": ["Ignore terrain cost"],
+		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus]","This Unit takes [30] damage <upon ending a turn in a [All] tile>","Unbuildable","Cannot be purchased","Heals [50] damage if it kills a unit","May travel on Water tiles without embarking","Ignore terrain cost","Can see over obstacles"],
+//		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 		"civilopediaText": [
 			{"text": "Ancient Era succubus unique unit."}
