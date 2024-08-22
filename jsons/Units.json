@@ -34,7 +34,7 @@
 		"cost": 25,
 //		"obsoleteTech": "Drama and Poetry",
 //		"upgradesTo": "Succubus Mistress",
-		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus]","[This Unit] takes [30] damage <upon ending a turn in a [Hill] tile>","Unbuildable","Cannot be purchased","Heals [50] damage if it kills a unit","May travel on Water tiles without embarking"],
+		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus]","This Unit takes [30] damage <upon ending a turn in a [Hill] tile>","Unbuildable","Cannot be purchased","Heals [50] damage if it kills a unit","May travel on Water tiles without embarking"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 		"civilopediaText": [
