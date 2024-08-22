@@ -1,13 +1,12 @@
 [
 	{
-		"name": "Human Cattle Market",
-		"replaces": "Market",
+		"name": "Succubus Supremacy Shrine",
+		"replaces": "Shrine",
 		"uniqueTo": "Succubus Empire",
-		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
-		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 25},
-		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City"],
-		"requiredTech": "Currency"
+		"faith": 1,
+		"cost": 40,
+   "maintenance": 1
+		"uniques": ["[+1 Faith, +1 Food] per [1] population [in this city]"],
+		"requiredTech": "Pottery"
 	}
 ]
