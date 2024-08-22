@@ -31,7 +31,7 @@
 		"innerColor": [200,8,131],
 		"uniquename": "Empire of Lust",
 		"uniqueText": "+100% to all yields while happy. -90% City-state influence degradation.",
-		"uniques": ["[+100]% [all] <while the empire is happy>","[-90]% City-State Influence degradation"],
+		"uniques": ["[+100]% [production, food, gold, science, culture, happiness, faith] <while the empire is happy>","[-90]% City-State Influence degradation"],
 		"cities": ["Land of Lust","Land of Domination","Land of Corruption","Land of Seduction","Land of Pleasure"]
 	}
 ]
