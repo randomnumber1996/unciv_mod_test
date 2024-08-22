@@ -17,8 +17,8 @@
 		"cost": 25,
 //		"obsoleteTech": "Drama and Poetry",
 //		"upgradesTo": "Succubus Mistress",
-		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus Transformed]"],
-//		"promotions": ["Ignore terrain cost","[+2000]% Strength <during the [Classical era]>"],
+		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus Transformed]","[+2000]% Strength <during the [Classical era]>"]
+//		"promotions": ["Ignore terrain cost"]
 		"attackSound": "arrow."
 		"civilopediaText": [
 			{"text": "Ancient Era succubus unique unit."}
