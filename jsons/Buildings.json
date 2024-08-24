@@ -6,7 +6,7 @@
 		"faith": 1,
 		"cost": 40,
    "maintenance": 1
-		"uniques": ["[+1 Faith, +1 Food] per [1] population [in this city]"],
+		"uniques": ["[+1 Faith, +1 Food, +1 Production, +1 Science, +1 Culture, +1 Happiness, +1 Gold] per [1] population [in this city]"],
 		"requiredTech": "Pottery"
 	}
 ]
