@@ -13,7 +13,7 @@
 	{
 		"name": "Promotion test",
 		"unique to": "Succubus Empire",
-		"uniques": ["[Succubus]" units gain the [Succubus Shock I] promotion"],
+		"uniques": ["[Succubus] units gain the [Succubus Shock I] promotion"],
 		"cost": 1
 	}
 ]
