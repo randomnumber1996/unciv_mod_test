@@ -8,5 +8,12 @@
    "maintenance": 1
 		"uniques": ["[+1 Faith, +1 Food, +1 Production, +1 Science, +1 Culture, +1 Happiness, +1 Gold] per [1] population [in this city]"],
 		"requiredTech": "Pottery"
+	},
+
+	{
+		"name": "Promotion test",
+		"unique to": " Succubus Empire",
+		"uniques": ["[Succubus]" units gain the [Succubus Shock I] promotion"],
+		"cost": 1
 	}
 ]
