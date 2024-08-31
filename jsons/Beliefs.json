@@ -14,4 +14,9 @@
         "type": "Founder",
         "uniques": ["[+1 Happiness] from every [1] global followers [in all cities]"]
     },
+    {
+        "name": "Hidden Desire Corruption",
+        "type": "Enhancer",
+        "uniques": ["Religion naturally spreads to cities [+20] tiles away","[+100]% Natural religion spread [in all cities]"]
+    },
 ]
