@@ -3,5 +3,15 @@
   "name": "Succubus Supremacy",
   "type": "Pantheon",
   "uniques":  ["[+100]% growth [in all cities]"]
- }
+ },
+   {
+        "name": "Human Slave Labor",
+        "type": "Follower",
+        "uniques": ["[+1]% [Production] from every follower, up to [100]%"]
+    },
+    {
+        "name": "Pleasure Slaves",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] from every [1] global followers [in all cities]"]
+    },
 ]
