@@ -1,6 +1,5 @@
 [
 
-	// Melee, Mounted+Armor
 	{
 		"name": "Succubus Shock I",
 		"uniques": ["[+25]% Strength <when attacking>"],
