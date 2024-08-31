@@ -1,14 +1,14 @@
 [
 
 	{
-		"name": "Succubus Shock I",
+		"name": "Tentacle Symbiosis I",
 		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Succubus"],
         "column": 34,
         "row": 1
 	},
 	{
-		"name": "Succubus Shock II",
+		"name": "Tentacle Symbiosis II",
 		"prerequisites": ["Succubus Shock I"],
 		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Succubus"],
@@ -16,7 +16,7 @@
         "row": 2
 	},
 	{
-		"name": "Succubus Shock III",
+		"name": "Tentacle Symbiosis III",
 		"prerequisites": ["Succubus Shock II"],
 		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Succubus"],
@@ -25,14 +25,14 @@
 	},
 
 	{
-		"name": "Succubus Drill I",
+		"name": "Enhanced Latex Suit I",
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Succubus"],
         "column": 35,
         "row": 1
 	},
 	{
-		"name": "Succubus Drill II",
+		"name": "Enhanced Latex Suit II",
 		"prerequisites": ["Succubus Drill I"],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Succubus"],
@@ -40,7 +40,7 @@
         "row": 2
 	},
 	{
-		"name": "Succubus Drill III",
+		"name": "Enhanced Latex Suit III",
 		"prerequisites": ["Succubus Drill II"],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Succubus"],
