@@ -3,7 +3,7 @@
 	// Melee, Mounted+Armor
 	{
 		"name": "Succubus Shock I",
-		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Succubus"],
         "column": 34,
         "row": 1
@@ -11,7 +11,7 @@
 	{
 		"name": "Succubus Shock II",
 		"prerequisites": ["Succubus Shock I"],
-		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Succubus"],
         "column": 34,
         "row": 2
@@ -19,7 +19,7 @@
 	{
 		"name": "Succubus Shock III",
 		"prerequisites": ["Succubus Shock II"],
-		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Succubus"],
         "column": 34,
         "row": 3
@@ -27,7 +27,7 @@
 
 	{
 		"name": "Succubus Drill I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Succubus"],
         "column": 35,
         "row": 1
@@ -35,7 +35,7 @@
 	{
 		"name": "Succubus Drill II",
 		"prerequisites": ["Succubus Drill I"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Succubus"],
         "column": 35,
         "row": 2
@@ -43,7 +43,7 @@
 	{
 		"name": "Succubus Drill III",
 		"prerequisites": ["Succubus Drill II"],
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Succubus"],
         "column": 35,
         "row": 3
@@ -57,27 +57,11 @@
         "row": 2
 	},
 	{
-		"name": "Succubus Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
+		"name": "Succubus Besiege",
 		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Succubus"],
         "column": 36,
-        "row": 3
-	},
-	{
-		"name": "Succubus Formation I",
-		"prerequisites": ["Succubus Shock II","Succubus Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Succubus"],
-        "column": 37,
-        "row": 2
-	},
-	{
-		"name": "Succubus Formation II",
-		"prerequisites": ["Succubus Formation I"],
-		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Succubus"],
-        "column": 37,
         "row": 3
 	},
 
@@ -89,14 +73,7 @@
         "column": 36,
         "row": 4
 	},
-//	{
-//		"name": "Woodsman",
-//		"prerequisites": ["Shock III","Drill III"],
-//		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-//		"unitTypes": ["Sword","Gunpowder"],
- //       "column": 36,
-  //      "row": 5
-//	},
+
 	{
 		"name": "Succubus Amphibious",
 		"prerequisites": ["Succubus Shock I", "Succubus Drill I"],
@@ -108,7 +85,7 @@
 	{
 		"name": "Succubus Medic",
 		"prerequisites": ["Succubus Shock I", "Succubus Drill I"],
-		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"uniques": ["[+10] HP when healing"],
 		"unitTypes": ["Succubus"],
         "column": 40, // after scout base
         "row": 1
@@ -116,7 +93,7 @@
 	{
 		"name": "Succubus Medic II",
 		"prerequisites": ["Succubus Medic"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
+		"uniques": ["All healing effects doubled"],
 		"unitTypes": ["Succubus"],
         "column": 40,
         "row": 2
@@ -164,29 +141,12 @@
 //	{
 //		"name": "Survivalism III",
 //		"prerequisites": ["Survivalism II"],
-//		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"], // This number is not based on any source
+//		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"],
 //		"unitTypes": ["Scout"],
 //        "column": 39,
 //        "row": 3
 //	},
-//
-//
-	// Mixed
-	{
-		"name": "Succubus Cover I",
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Succubus"],
-        "column": 54,
-        "row": 1
-	},
-	{
-		"name": "Succubus Cover II",
-		"prerequisites": ["Succubus Cover I"],
-		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Succubus"],
-        "column": 54,
-        "row": 2
-	},
+
 
 	{
 		"name": "Succubus March",
@@ -222,21 +182,6 @@
 //        "row": 5
 //	},
 //
-//	{
-//		"name": "Ambush I",
-//		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-//		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
-//        "column": 25,
-//        "row": 1
-//	},
-//	{
-//		"name": "Ambush II",
-//		"prerequisites": ["Ambush I"],
-//		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-//		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
-//        "column": 25,
-//        "row": 2
-//	},
 
 
 
