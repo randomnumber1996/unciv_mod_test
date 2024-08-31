@@ -56,7 +56,7 @@
         "row": 2
 	},
 	{
-		"name": "Succubus Besiege",
+		"name": "Overwhelming Pheromones",
 		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Succubus"],
@@ -148,7 +148,7 @@
 
 
 	{
-		"name": "Succubus March",
+		"name": "Portable Mana Slave",
 		"prerequisites": ["Succubus Shock III","Succubus Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Succubus"],
@@ -156,7 +156,7 @@
         "row": 3
 	},
 	{
-		"name": "Succubus Mobility",
+		"name": "Sexual Body Modification",
 		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Succubus"],
