@@ -48,9 +48,9 @@
         "row": 3
 	},
 	{
-		"name": "Succubus Charge",
+		"name": "Sadistic Pleasure",
 		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
-		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
+		"uniques": ["[+50]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Succubus"],
         "column": 36,
         "row": 2
