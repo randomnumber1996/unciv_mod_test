@@ -1,7 +1,6 @@
 [
 	{
 		"name": "Succubus Supremacy Shrine",
-		"replaces": "Shrine",
 		"uniqueTo": "Succubus Empire",
 		"faith": 1,
 		"cost": 40,
@@ -11,9 +10,9 @@
 	},
 
 	{
-		"name": "Promotion test",
+		"name": "Extreme Corruption",
 		"unique to": "Succubus Empire",
-		"uniques": ["[Succubus] units gain the [Succubus Shock I] promotion"],
-		"cost": 1
+		"uniques": ["[-90]% Culture cost of natural border growth [in all cities]"],
+		"cost": 10
 	}
 ]
