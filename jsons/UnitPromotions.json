@@ -2,23 +2,23 @@
 
 	{
 		"name": "Tentacle Symbiosis I",
-		"uniques": ["[+25]% Strength <when attacking>"],
+		"uniques": ["[+50]% Strength <when attacking>"],
 		"unitTypes": ["Succubus"],
         "column": 34,
         "row": 1
 	},
 	{
 		"name": "Tentacle Symbiosis II",
-		"prerequisites": ["Succubus Shock I"],
-		"uniques": ["[+25]% Strength <when attacking>"],
+//		"prerequisites": ["Succubus Shock I"],
+		"uniques": ["[+50]% Strength <when attacking>"],
 		"unitTypes": ["Succubus"],
         "column": 34,
         "row": 2
 	},
 	{
 		"name": "Tentacle Symbiosis III",
-		"prerequisites": ["Succubus Shock II"],
-		"uniques": ["[+25]% Strength <when attacking>"],
+//		"prerequisites": ["Succubus Shock II"],
+		"uniques": ["[+50]% Strength <when attacking>"],
 		"unitTypes": ["Succubus"],
         "column": 34,
         "row": 3
@@ -26,38 +26,38 @@
 
 	{
 		"name": "Enhanced Latex Suit I",
-		"uniques": ["[+25]% Strength <when defending>"],
+		"uniques": ["[+50]% Strength <when defending>"],
 		"unitTypes": ["Succubus"],
         "column": 35,
         "row": 1
 	},
 	{
 		"name": "Enhanced Latex Suit II",
-		"prerequisites": ["Succubus Drill I"],
-		"uniques": ["[+25]% Strength <when defending>"],
+//		"prerequisites": ["Succubus Drill I"],
+		"uniques": ["[+50]% Strength <when defending>"],
 		"unitTypes": ["Succubus"],
         "column": 35,
         "row": 2
 	},
 	{
 		"name": "Enhanced Latex Suit III",
-		"prerequisites": ["Succubus Drill II"],
-		"uniques": ["[+25]% Strength <when defending>"],
+//		"prerequisites": ["Succubus Drill II"],
+		"uniques": ["[+50]% Strength <when defending>"],
 		"unitTypes": ["Succubus"],
         "column": 35,
         "row": 3
 	},
 	{
-		"name": "Sadistic Pleasure",
-		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
+		"name": "Overwhelming Pheromones",
+//		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
 		"uniques": ["[+50]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Succubus"],
         "column": 36,
         "row": 2
 	},
 	{
-		"name": "Overwhelming Pheromones",
-		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
+		"name": "Mass Seduction Magic",
+//		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Succubus"],
         "column": 36,
@@ -65,25 +65,17 @@
 	},
 
 	{
-		"name": "Succubus Blitz",
-		"prerequisites": ["Succubus Shock III","Succubus Drill III"],
-		"uniques": ["[1] additional attacks per turn"],
+		"name": "Sadistic Pleasure",
+//		"prerequisites": ["Succubus Shock III","Succubus Drill III"],
+		"uniques": ["[1] additional attacks per turn","Can move after attacking"],
 		"unitTypes": ["Succubus"],
         "column": 36,
         "row": 4
 	},
 
 	{
-		"name": "Succubus Amphibious",
-		"prerequisites": ["Succubus Shock I", "Succubus Drill I"],
-		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Succubus"],
-        "column": 36,
-        "row": 1
-	},
-	{
 		"name": "Biomechanical Stimulation Suit I",
-		"prerequisites": ["Succubus Shock I", "Succubus Drill I"],
+//		"prerequisites": ["Succubus Shock I", "Succubus Drill I"],
 		"uniques": ["[+10] HP when healing"],
 		"unitTypes": ["Succubus"],
         "column": 40, // after scout base
@@ -91,65 +83,16 @@
 	},
 	{
 		"name": "Biomechanical Stimulation Suit II",
-		"prerequisites": ["Succubus Medic"],
+//		"prerequisites": ["Succubus Medic"],
 		"uniques": ["All healing effects doubled"],
 		"unitTypes": ["Succubus"],
         "column": 40,
         "row": 2
 	},
 
-	// Scout
-//	{
-//		"name": "Scouting I",
-//		"uniques": ["[+1] Sight"],
-//		"unitTypes": ["Scout"],
-//        "column": 38,
-//        "row": 1
-//	},
-//	{
-//		"name": "Scouting II",
-//		"prerequisites": ["Scouting I"],
-//		"uniques": ["[+1] Sight"],
-//		"unitTypes": ["Scout"],
-//        "column": 38,
-//        "row": 2
-//	},
-//	{
-//		"name": "Scouting III",
-//		"prerequisites": ["Scouting II"],
-//		"uniques": ["[+1] Movement"],
-//		"unitTypes": ["Scout"],
-//        "column": 38,
-//        "row": 3
-//	},
-//	{
-//		"name": "Survivalism I",
-//		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-//		"unitTypes": ["Scout"],
-//        "column": 39,
-//        "row": 1
-//	},
-//	{
-//		"name": "Survivalism II",
-//		"prerequisites": ["Survivalism I"],
-//		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+25]% Strength <when defending>"],
-//		"unitTypes": ["Scout"],
-//        "column": 39,
-//        "row": 2
-//	},
-//	{
-//		"name": "Survivalism III",
-//		"prerequisites": ["Survivalism II"],
-//		"uniques": ["Unit will heal every turn, even if it performs an action", "Withdraws before melee combat <with [75]% chance>"],
-//		"unitTypes": ["Scout"],
-//        "column": 39,
-//        "row": 3
-//	},
-
-
 	{
 		"name": "Portable Mana Slave",
-		"prerequisites": ["Succubus Shock III","Succubus Drill III"],
+//		"prerequisites": ["Succubus Shock III","Succubus Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Succubus"],
         "column": 40,
@@ -157,69 +100,29 @@
 	},
 	{
 		"name": "Sexual Body Modification",
-		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
-		"uniques": ["[+1] Movement"],
+//		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
+		"uniques": ["[+2] Movement"],
 		"unitTypes": ["Succubus"],
         "column": 54,
         "row": 3
 	},
 	{
-		"name": "Succubus Sentry",
-		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
-		"uniques": ["[+1] Sight"],
+		"name": " Masochist Detection",
+//		"prerequisites": ["Succubus Shock II","Succubus Drill II"],
+		"uniques": ["[+2] Sight"],
 		"unitTypes": ["Succubus"],
         "column": 54,
         "row": 4
 	}
-//	{
-//		"name": "Logistics",
-//		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
-//			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
-//		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-//		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
-//        "column": 24,
-//        "row": 5
-//	},
-//
 
 
 
-
-	// Uniques that should be kept on upgrades
-//	{
-//		"name": "Morale", // Heroic Epic
-//		"uniques": ["[+15]% Strength"]
-//	},
-//	{
-//		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
-//		"uniques": ["[Great General] is earned [50]% faster"]
-//	},
-//	{
-//		"name": "Great Generals II", // only for Samurai and subsequent upgrades
-//		"uniques": ["[Great General] is earned [100]% faster"]
-//	},
-//	{
-//		"name": "Quick Study", // only for Keshik and subsequent upgrades
 //		"uniques": ["[+50]% XP gained from combat"]
 //	},
 //	{
 //		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 //		"uniques": ["All healing effects doubled"]
 //	},
-//		"name": "[Janissary] ability",
-//		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"]
-//	},
-//	{
-//		"name": "[Sipahi] ability",
-//		"uniques": ["No movement cost to pillage"]
-//	},
-//	{
-//		"name": "[Cossack] ability",
-//		"uniques": ["[+50]% Strength <vs [Wounded] units>"]
-//	},
-//	{
-//		"name": "[Hussar] ability",
-//		"uniques": ["[+50]% to Flank Attack bonuses"]
-//	},
+
 
 ]
