@@ -82,7 +82,7 @@
         "row": 1
 	},
 	{
-		"name": "Succubus Medic",
+		"name": "Biomechanical Stimulation Suit I",
 		"prerequisites": ["Succubus Shock I", "Succubus Drill I"],
 		"uniques": ["[+10] HP when healing"],
 		"unitTypes": ["Succubus"],
@@ -90,7 +90,7 @@
         "row": 1
 	},
 	{
-		"name": "Succubus Medic II",
+		"name": "Biomechanical Stimulation Suit II",
 		"prerequisites": ["Succubus Medic"],
 		"uniques": ["All healing effects doubled"],
 		"unitTypes": ["Succubus"],
