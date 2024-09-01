@@ -1,0 +1,69 @@
+
+game.png
+size: 1024, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Breeders
+  rotate: false
+  xy: 484, 304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Holodeck
+  rotate: false
+  xy: 484, 196
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kingdom of Erusea
+  rotate: false
+  xy: 592, 304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Succubus Empire
+  rotate: false
+  xy: 592, 304
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Succubus Dominatrix
+  rotate: false
+  xy: 4, 4
+  size: 300, 400
+  orig: 300, 400
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Succubus Mistress
+  rotate: false
+  xy: 312, 154
+  size: 164, 250
+  orig: 164, 250
+  offset: 0, 0
+  index: -1
+UnitIcons/Succubus Dominatrix
+  rotate: false
+  xy: 312, 18
+  size: 149, 128
+  orig: 149, 128
+  offset: 0, 0
+  index: -1
+ReligionIcons/Succubus Pleasure Worship
+  rotate: false
+  xy: 312, 18
+  size: 149, 128
+  orig: 149, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Succubus Mistress
+  rotate: false
+  xy: 312, 18
+  size: 149, 128
+  orig: 149, 128
+  offset: 0, 0
+  index: -1
