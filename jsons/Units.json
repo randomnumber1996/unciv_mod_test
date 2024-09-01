@@ -17,7 +17,7 @@
 		"cost": 25,
 //		"obsoleteTech": "Drama and Poetry",
 //		"upgradesTo": "Succubus Mistress",
-		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus Transformed]","[+40]% Strength <starting from the [Classical era]>","[+40]% Strength <starting from the [Medieval era]>","[+40]% Strength <starting from the [Renaissance era]>","[+40]% Strength <starting from the [Industrial era]>","[+40]% Strength <starting from the [Modern era]>","[+40]% Strength <starting from the [Atomic era]>","[+40]% Strength <starting from the [Information era]>","[+40]% Strength <starting from the [Future era]>"]
+		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus Dominatrix]","[+40]% Strength <starting from the [Classical era]>","[+40]% Strength <starting from the [Medieval era]>","[+40]% Strength <starting from the [Renaissance era]>","[+40]% Strength <starting from the [Industrial era]>","[+40]% Strength <starting from the [Modern era]>","[+40]% Strength <starting from the [Atomic era]>","[+40]% Strength <starting from the [Information era]>","[+40]% Strength <starting from the [Future era]>"]
 //		"promotions": ["Ignore terrain cost"]
 		"attackSound": "arrow."
 		"civilopediaText": [
@@ -35,7 +35,7 @@
 		"cost": 25,
 //		"obsoleteTech": "Drama and Poetry",
 //		"upgradesTo": "Succubus Mistress",
-		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus]","This Unit takes [10] damage <upon ending a turn in a [All] tile>","Unbuildable","Cannot be purchased","Heals [50] damage if it kills a unit","May travel on Water tiles without embarking","Ignore terrain cost","Ignores Zone of Control","Can see over obstacles","[+40]% Strength <starting from the [Classical era]>","[+40]% Strength <starting from the [Medieval era]>","[+40]% Strength <starting from the [Renaissance era]>","[+40]% Strength <starting from the [Industrial era]>","[+40]% Strength <starting from the [Modern era]>","[+40]% Strength <starting from the [Atomic era]>","[+40]% Strength <starting from the [Information era]>","[+40]% Strength <starting from the [Future era]>"],
+		"uniques": ["Never appears as a Barbarian unit","Can transform to [Succubus Mistress]","This Unit takes [10] damage <upon ending a turn in a [All] tile>","Unbuildable","Cannot be purchased","Heals [50] damage if it kills a unit","May travel on Water tiles without embarking","Ignore terrain cost","Ignores Zone of Control","Can see over obstacles","[+40]% Strength <starting from the [Classical era]>","[+40]% Strength <starting from the [Medieval era]>","[+40]% Strength <starting from the [Renaissance era]>","[+40]% Strength <starting from the [Industrial era]>","[+40]% Strength <starting from the [Modern era]>","[+40]% Strength <starting from the [Atomic era]>","[+40]% Strength <starting from the [Information era]>","[+40]% Strength <starting from the [Future era]>"],
 //		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 		"civilopediaText": [
