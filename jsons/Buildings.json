@@ -11,7 +11,7 @@
 
 	{
 		"name": "Extreme Corruption",
-		"unique to": "Succubus Empire",
+		"uniqueTo": "Succubus Empire",
 		"uniques": ["[-90]% Culture cost of natural border growth [in all cities]"],
 		"cost": 10
 	},
