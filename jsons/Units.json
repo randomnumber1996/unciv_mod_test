@@ -7,9 +7,9 @@
 
 [
 	{
-		"name": "Succubus",
+		"name": "Succubus Mistress",
 		"unitType": "Succubus",
-		"replaces": "Scout",
+//		"replaces": "Scout",
 		"uniqueTo": "Succubus Empire",
 		"movement": 3,
 		"strength": 6,
@@ -26,9 +26,9 @@
 	},
 	
 	{
-		"name": "Succubus Transformed",
+		"name": "Succubus Dominatrix",
 		"unitType": "Succubus",
-		"replaces": "Giant Death Robot",
+//		"replaces": "Giant Death Robot",
 		"uniqueTo": "Succubus Empire",
 		"movement": 5,
 		"strength": 12,
